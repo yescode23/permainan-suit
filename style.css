@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Latar belakang */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Container Utama */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Judul */
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Tombol Pilihan */
+.pilihan-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pilih-tombol {
+    background: #667eea;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pilih-tombol img {
+    width: 70px;
+    height: 75px;
+}
+
+.pilih-tombol:hover {
+    background: #764ba2;
+}
+
+/* Hasil */
+.hasil-container {
+    margin-top: 20px;
+}
+
+.hasil-container p {
+    margin: 5px 0;
+}
+
+.hasil-container .display-pilihan {
+    font-weight: bold;
+    color: black;
+}
+
+.hasil-container #hasil {
+    font-weight: bold;
+    color: black;
+}
+
+/* Skor */
+.skor-container {
+    margin-top: 20px;
+}
+
+.skor-container p {
+    margin: 5px 0;
+}
+
+.skor-container span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Tombol Reset */
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}

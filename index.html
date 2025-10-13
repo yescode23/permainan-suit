@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Scissor, Paper Game</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>🎮 Game Suit - Gunting Batu Kertas</h2>
+
+        <div class="pilihan-container">
+            <button class="pilih-tombol" id="tombol-gunting"><img src="assets/scissor.png" alt=""></button>
+            <button class="pilih-tombol" id="tombol-batu"><img src="assets/rock.png" alt=""></button>
+            <button class="pilih-tombol" id="tombol-kertas"><img src="assets/paper.png" alt=""></button>
+        </div>
+
+        <div class="hasil-container">
+            <p>Pemain memilih :<span id="pilihan-pemain" class="display-pilihan"></span></p>
+            <p>Komputer memilih :<span id="pilihan-komputer" class="display-pilihan"></span></p>
+            <p>Hasil :<span id="hasil"></span></p>
+        </div>
+
+        <div class="skor-container">
+            <p>Skor pemain :<span id="skor-pemain"> 0</span></p>
+            <p>Skor komputer :<span id="skor-komputer"> 0</span></p>
+        </div>
+
+        <button id="reset">Reset Skor</button>
+    </div>
+
+    <!-- Link Javascript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
