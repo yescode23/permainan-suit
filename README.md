@@ -16,3 +16,6 @@ Clone repositori ini :
 ``` bash
 git clone https://github.com/yescode23/game-suit.git
 ```
+
+## Live demo
+https://yescode23.github.io/permainan-suit/
