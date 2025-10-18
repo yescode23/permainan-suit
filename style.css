@@ -104,6 +104,10 @@ body {
     cursor: pointer;
 }
 
+#reset:hover {
+    background: rgb(170, 0, 0);
+}
+
 /* Responsif */
 @media (max-width: 450px) {
     .container {
