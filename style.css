@@ -106,6 +106,7 @@ body {
 
 #reset:hover {
     background: rgb(170, 0, 0);
+    transition: background 0.3s ease;
 }
 
 /* Responsif */
