@@ -105,10 +105,6 @@ body {
     transition: background 0.3s ease;
 }
 
-#reset:hover {
-    background: darkred;
-}
-
 /* Responsif */
 @media (max-width: 450px) {
     .container {
